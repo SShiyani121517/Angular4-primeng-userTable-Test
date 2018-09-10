@@ -1,0 +1,28 @@
+.user-details /deep/ h2{
+    color: #2e3b8c;
+}
+.user-details /deep/ ul{
+    list-style: none;
+    width:40%;
+    padding-left: 0px;
+}
+.user-details /deep/ ul li{
+    background-color: #f8f7ff;
+    margin-bottom: 4px;
+    padding: 5px;
+    display: flex;
+}
+.user-details /deep/ ul li span{
+    padding: 5px;
+    display: inline-block;
+    background-color: #d3cfec;
+    margin: 0px 5px;
+    color: #5d539e;
+    border-radius: 3px;
+ }
+.user-details /deep/ ul li span:nth-child(1){
+   width:25%;
+}
+.user-details /deep/ ul li span:nth-child(2){
+    width:70%;
+}

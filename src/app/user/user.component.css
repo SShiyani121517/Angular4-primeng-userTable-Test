@@ -1,0 +1,34 @@
+.user-info /deep/ h2{
+    color: #2e3b8c;
+}
+.user-info /deep/ .ui-datatable-tablewrapper table th{
+   padding: 10px 5px;
+}
+.user-info /deep/ .ui-datatable-tablewrapper table th:nth-child(1){
+    width:100px;
+}
+.user-info /deep/ .ui-datatable-tablewrapper table td{
+    padding: 10px 5px;
+    text-align: center
+}
+.user-info /deep/ .ui-datatable-tablewrapper table td:nth-child(1){
+    width:100px;
+}
+.user-info /deep/ .ui-datatable-tablewrapper table thead{
+    background-color: #d2d8ff;
+}
+.user-info /deep/ .ui-datatable-tablewrapper table tbody tr:nth-child(even){
+    background-color: #f8f7ff;
+}
+.user-info /deep/ .ui-datatable-tablewrapper table{
+    border:1px solid #d2d8ff;
+}
+.user-info /deep/ .ui-datatable-tablewrapper table tr:hover{
+    cursor:pointer;
+}
+.user-info /deep/ .ui-datatable .ui-datatable-thead>tr>th{
+    border-width:1px;
+}
+.user-info /deep/.ui-datatable .ui-datatable-data>tr>td{
+    border-width:1px;
+}
